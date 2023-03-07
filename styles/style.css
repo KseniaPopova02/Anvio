@@ -17,12 +17,11 @@ header {
 
 .nested__ul {
   display: flex;
+  align-items: center;
 }
 
 .header__arrow {
   line-height: 0;
-  max-height: 8.5px;
-  max-width: 100%;
   margin-left: 10px;
 }
 
