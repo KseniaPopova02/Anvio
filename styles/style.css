@@ -1,1 +1,35 @@
+@import "./normalize.css";
 @import "./global.css";
+
+/* Header */
+header {
+  padding: 25px 0;
+  background: rgba(255, 255, 255, 0.9);
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.header__arrow {
+  line-height: 0;
+  max-height: 8.5px;
+  max-width: 100%;
+  margin-left: 10px;
+}
+
+.upper__li {
+  margin-right: 26px;
+}
+
+.header__button {
+  background-color: #ce2127;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: #fff;
+}
