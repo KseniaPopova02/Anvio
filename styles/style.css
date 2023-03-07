@@ -13,7 +13,10 @@ header {
 
 .header__nav-list {
   display: flex;
-  align-items: center;
+}
+
+.nested__ul {
+  display: flex;
 }
 
 .header__arrow {
