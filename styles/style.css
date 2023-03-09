@@ -1,5 +1,5 @@
-@import "./normalize.css";
-@import "./global.css";
+@import url("./normalize.css");
+@import url("./global.css");
 
 /* Header */
 header {
@@ -9,6 +9,7 @@ header {
 .header__wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__nav-list {
@@ -26,7 +27,11 @@ header {
 }
 
 .upper__li {
-  margin-right: 26px;
+  margin-left: 26px;
+}
+
+.header__nav-phone {
+  margin-left: 0;
 }
 
 .header__button {
@@ -34,4 +39,57 @@ header {
   border-radius: 30px;
   padding: 10px 30px;
   color: #fff;
+}
+
+/* Header mobile  */
+.header__mobile-wrapper {
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: space-between;
+  display: none;
+}
+
+.header__mobile-btn + .header__mobile-btn {
+  margin-left: 30px;
+}
+/* Burger menu btn */
+.burger__button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+}
+.line {
+  fill: none;
+  stroke: black;
+  stroke-width: 6;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.line2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 6;
+}
+.line3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.opened .line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+.opened .line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+}
+.opened .line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
 }

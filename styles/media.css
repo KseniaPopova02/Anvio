@@ -1,0 +1,18 @@
+/* header */
+@media (max-width: 1350px) {
+  .upper__li {
+    margin-left: 15px;
+  }
+  .header__nav-phone {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header__wrapper {
+    display: none;
+  }
+  .header__mobile-wrapper {
+    display: flex;
+  }
+}
