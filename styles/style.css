@@ -109,8 +109,6 @@ header {
   transform: translateY(0);
 }
 
-/* For showing panels */
-
 /* Burger menu btn */
 .burger__button {
   background-color: transparent;
@@ -160,6 +158,118 @@ header {
 
 .burger__button {
   font-size: 30px;
+}
+
+/* mobile menu */
+.mobile__burger-menu {
+  position: absolute;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px;
+  top: 80px;
+  right: 10px;
+}
+
+.mobile__dimmed-screen {
+  background: #000;
+  opacity: 0.3;
+  width: 100vh;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  z-index: -100;
+  display: none;
+}
+
+.mobile__region {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.mobile__region-content {
+  display: flex;
+  align-items: center;
+}
+.mobile__region-content div + div {
+  margin-left: 10px;
+}
+
+.mobile__svg {
+  line-height: 0;
+}
+
+.mobile__button-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+.mobile__button {
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+.mobile__button-wrapper button + button {
+  margin-top: 10px;
+}
+.button__buy {
+  background: #ce2127;
+  color: #fff;
+}
+.button__order {
+  border: 2px solid #ce2127;
+  background-color: transparent;
+}
+
+.horizontal__line {
+  border-bottom: 2px solid #eeeeee;
+  margin: 20px 0;
+}
+
+.mobile__menu-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.mobile__menu-list-content {
+  display: flex;
+  justify-content: center;
+}
+.mobile__manu-text {
+  margin-right: 10px;
+}
+.mobile__menu-info {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ce2127;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.mobile__menu-info div + div {
+  margin-top: 20px;
+}
+
+.mobile__menu-social {
+  display: flex;
+  justify-content: center;
+}
+.mobile__menu-social div + div {
+  margin-left: 10px;
+}
+
+.mobile__menu-login {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile__menu-login div {
+  margin-right: 10px;
 }
 
 /* active li color */
