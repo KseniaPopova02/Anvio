@@ -1,0 +1,33 @@
+/* header */
+@media (max-width: 1350px) {
+  .upper__li {
+    margin-left: 15px;
+  }
+  .header__nav-phone {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  header {
+    padding: 20px 10px;
+  }
+  .header__wrapper {
+    display: none;
+  }
+  .header__mobile-wrapper {
+    display: flex;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding: 0 10px;
+  }
+  header {
+    padding: 20px 0;
+  }
+  .header__mobile-btn + .header__mobile-btn {
+    margin-left: 15px;
+  }
+}
