@@ -1,8 +1,7 @@
 import { toggleClass } from "./function.js";
 
 const cross = document.getElementById("burgerButton");
-const body = document.getElementById("body");
-// const crossWrapper = getElementById("buttonWrapper");
+const mobileMenu = document.getElementById("mobileMenu");
 
 cross.addEventListener("click", (e) => {
   e.preventDefault();
@@ -11,5 +10,5 @@ cross.addEventListener("click", (e) => {
 });
 
 cross.addEventListener("click", () => {
-  toggleClass(body, "menu__open");
+  toggleClass(mobileMenu, "mobile__burger-menu-show");
 });

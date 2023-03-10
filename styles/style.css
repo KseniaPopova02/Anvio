@@ -2,6 +2,7 @@
 @import url("./global.css");
 
 /* Header */
+
 header {
   padding: 25px 0;
   background: rgba(255, 255, 255, 0.9);
@@ -162,15 +163,21 @@ header {
 
 /* mobile menu */
 .mobile__burger-menu {
+  transform: translateX(260px);
   position: absolute;
   background-color: #fff;
   padding: 30px;
   border-radius: 30px;
   top: 80px;
   right: 10px;
+  transition: all 0.3s;
 }
 
-.mobile__dimmed-screen {
+.mobile__burger-menu-show {
+  transform: translateX(0);
+}
+
+/* .mobile__dimmed-screen {
   background: #000;
   opacity: 0.3;
   width: 100vh;
@@ -178,8 +185,7 @@ header {
   left: 0;
   position: absolute;
   z-index: -100;
-  display: none;
-}
+} */
 
 .mobile__region {
   display: flex;
