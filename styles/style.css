@@ -292,3 +292,9 @@ header {
   padding: 30px;
   height: 130px;
 }
+
+/* if mobile menu open */
+
+.menu__open {
+  overflow: hidden;
+}
