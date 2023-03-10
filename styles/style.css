@@ -155,3 +155,44 @@ header {
 .active__li {
   color: #ce2127;
 }
+
+/* header events */
+
+.header__events {
+  background-color: #fff;
+  border-radius: 0 30px 30px 30px;
+  top: 125%;
+  left: 36%;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  transition: height 0.3s;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header__events-content {
+  display: flex;
+  align-items: center;
+}
+
+.header__events-content + .header__events-content {
+  margin-top: 30px;
+}
+
+.header__events-content svg {
+  margin-right: 20px;
+}
+
+.header__events-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__events-bg-show {
+  height: 350px;
+  padding: 30px;
+}
