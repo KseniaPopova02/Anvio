@@ -24,3 +24,5 @@ window.addEventListener("click", (e) => {
 nestedLi.addEventListener("click", () => {
   toggleClass(nestedLi, "active__li");
 });
+
+//I also want to do clickable countries but that will be on Monday

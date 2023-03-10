@@ -152,6 +152,16 @@ header {
   stroke-dashoffset: -134;
   stroke-width: 6;
 }
+
+.mobile__subtract,
+.mobile__phone {
+  font-size: 22px;
+}
+
+.burger__button {
+  font-size: 30px;
+}
+
 /* active li color */
 
 .active__li {
@@ -183,6 +193,10 @@ header {
 
 .header__events-content + .header__events-content {
   margin-top: 30px;
+}
+
+.header__events-content svg {
+  font-size: 50px;
 }
 
 .header__events-content svg {
