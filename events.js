@@ -1,11 +1,15 @@
 import { toggleClass } from "./function.js";
 
-const eventsButton = document.getElementById("events");
 const headerEvents = document.getElementById("headerEvents");
 const nestedLi = document.getElementById("eventsNestedLi");
+const arrowEvents = document.getElementById("arrowEvents");
 
 //showing content of event's block
-eventsButton.addEventListener("click", () => {
+nestedLi.addEventListener("click", () => {
+  toggleClass(headerEvents, "header__events-bg-show");
+});
+
+arrowEvents.addEventListener("click", () => {
   toggleClass(headerEvents, "header__events-bg-show");
 });
 
