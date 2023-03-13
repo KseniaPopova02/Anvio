@@ -1,19 +1,29 @@
 import { toggleClass } from "./function.js";
 
-const entertainmentButton = document.getElementById("entertainments");
 const headerEntertainments = document.getElementById("headerEntertainments");
 const headerEntertainmentsContent = document.querySelectorAll(
   ".header__entertainments-content"
 );
 const nestedLi = document.getElementById("entertainmentNestedLi");
+const nestedSvg = document.getElementById("entertainmentNestedSvg");
 
 //showing block of entertainments
-entertainmentButton.addEventListener("click", () => {
+nestedLi.addEventListener("click", () => {
+  toggleClass(headerEntertainments, "header__entertainments-bg-show");
+});
+
+nestedSvg.addEventListener("click", () => {
   toggleClass(headerEntertainments, "header__entertainments-bg-show");
 });
 
 //showing content of block with entertainments
-entertainmentButton.addEventListener("click", () => {
+nestedLi.addEventListener("click", () => {
+  headerEntertainmentsContent.forEach((element) => {
+    toggleClass(element, "header__entertainments-content-show");
+  });
+});
+
+nestedSvg.addEventListener("click", () => {
   headerEntertainmentsContent.forEach((element) => {
     toggleClass(element, "header__entertainments-content-show");
   });
@@ -30,6 +40,7 @@ window.addEventListener("click", (e) => {
         element.classList.remove("header__entertainments-content-show");
       });
       nestedLi.classList.remove("active__li");
+      nestedSvg.classList.remove("active__li");
     }
   }
 });
@@ -37,5 +48,8 @@ window.addEventListener("click", (e) => {
 //change color of active link
 
 nestedLi.addEventListener("click", () => {
+  toggleClass(nestedLi, "active__li");
+});
+nestedSvg.addEventListener("click", () => {
   toggleClass(nestedLi, "active__li");
 });
