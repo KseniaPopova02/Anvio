@@ -21,6 +21,7 @@ window.addEventListener("click", (e) => {
   }
 });
 
+//change color of active link
 nestedLi.addEventListener("click", () => {
   toggleClass(nestedLi, "active__li");
 });
