@@ -183,7 +183,7 @@ header {
 .mobile__burger-menu-show {
   transform: translateX(0);
   padding: 30px;
-  height: 650px;
+  height: auto;
   overflow: visible;
 }
 
@@ -198,20 +198,50 @@ header {
 
 .mobile__region {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   margin-bottom: 20px;
+}
+
+.region__countries-content {
+  text-align: center;
+}
+
+.mobile__region-countries {
+  margin-top: 25px;
+}
+
+.mobile__location-header {
+  margin-bottom: 10px;
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: 700;
 }
 
 .mobile__region-content {
   display: flex;
+  justify-content: space-between;
+}
+.mobile__region-nav {
+  display: flex;
   align-items: center;
 }
-.mobile__region-content div + div {
+.mobile__region-nav div + div {
   margin-left: 10px;
 }
 
 .mobile__svg {
   line-height: 0;
+}
+
+.mobile__region-location {
+  overflow: hidden;
+  height: 0;
+  transition: height 1s;
+}
+
+.mobile__region-location-show {
+  overflow: visible;
+  height: auto;
 }
 
 .mobile__button-wrapper {
