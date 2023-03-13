@@ -8,6 +8,10 @@ header {
   background: rgba(255, 255, 255, 0.9);
   position: relative;
 }
+
+.header__logo {
+  line-height: 0;
+}
 .header__wrapper {
   display: flex;
   justify-content: space-between;
@@ -54,6 +58,7 @@ header {
 
 .header__mobile-logo {
   margin-right: 10px;
+  line-height: 0;
 }
 
 .header__mobile-btn + .header__mobile-btn {
@@ -238,6 +243,10 @@ header {
   margin: 20px 0;
 }
 
+.mobile__menu-arrow {
+  line-height: 0;
+}
+
 .mobile__menu-list {
   font-weight: 400;
   font-size: 14px;
@@ -246,6 +255,7 @@ header {
 .mobile__menu-list-content {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .mobile__manu-text {
   margin-right: 10px;
@@ -271,6 +281,11 @@ header {
 }
 .mobile__menu-social div + div {
   margin-left: 10px;
+}
+
+.mobile__social-item {
+  line-height: 0;
+  font-size: 33px;
 }
 
 .mobile__menu-login {
