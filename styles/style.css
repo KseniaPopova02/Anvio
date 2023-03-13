@@ -163,29 +163,33 @@ header {
 
 /* mobile menu */
 .mobile__burger-menu {
-  transform: translateX(260px);
+  transform: translateX(270px);
   position: absolute;
   background-color: #fff;
-  padding: 30px;
   border-radius: 30px;
   top: 80px;
   right: 10px;
   transition: all 0.3s;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
 }
 
 .mobile__burger-menu-show {
   transform: translateX(0);
+  padding: 30px;
+  height: 650px;
+  overflow: visible;
 }
 
-/* .mobile__dimmed-screen {
+.mobile__dimmed-screen {
   background: #000;
   opacity: 0.3;
-  width: 100vh;
   height: 100vh;
   left: 0;
   position: absolute;
   z-index: -100;
-} */
+}
 
 .mobile__region {
   display: flex;
