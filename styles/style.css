@@ -419,14 +419,16 @@ header {
   line-height: 30px;
   max-width: 222px;
   text-align: center;
+  margin-bottom: 11px;
 }
 
 .mobile__burger-metro {
   display: flex;
   justify-content: center;
+  margin-bottom: 21px;
 }
 
-.mobile__burger-metro svg {
+.mobile__burger-metro img {
   margin-right: 10px;
 }
 
@@ -439,6 +441,37 @@ header {
 .mobile__burger-map {
   max-width: 282px;
   max-height: 300px;
+}
+
+.burger__time-header {
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.mobile__burger-route {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.mobile__burger-route button + button {
+  margin-top: 10px;
+}
+
+.burger__route-header {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.5;
+}
+.burger__route-btn {
+  border: 2px solid #ce2127;
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: transparent;
+  width: 222px;
 }
 /* active li color */
 
