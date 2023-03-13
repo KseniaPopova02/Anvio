@@ -167,6 +167,21 @@ header {
 }
 
 /* mobile menu */
+.mobile__burger-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #000;
+  opacity: 0.3;
+  width: 100%;
+  height: 100vh;
+  z-index: -10;
+}
+
+.no__scroll {
+  overflow: hidden;
+}
+
 .mobile__burger-menu {
   transform: translateX(270px);
   position: absolute;
@@ -177,6 +192,7 @@ header {
   transition: all 0.3s;
   padding: 0;
   height: 0;
+
   overflow: hidden;
 }
 
@@ -184,15 +200,11 @@ header {
   transform: translateX(0);
   padding: 30px;
   height: auto;
-  overflow: visible;
+  overflow-y: auto;
 }
 
 .mobile__dimmed-screen {
-  background: #000;
-  opacity: 0.3;
-  height: 100vh;
   left: 0;
-  position: absolute;
   z-index: -100;
 }
 

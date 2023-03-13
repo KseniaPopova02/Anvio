@@ -4,6 +4,8 @@ import { toggleClass } from "./function.js";
 const cross = document.getElementById("burgerButton");
 const mobileMenu = document.getElementById("mobileMenu");
 
+//overlay
+const overlay = document.getElementById("overlay");
 //region nav
 const mobileRegionBtn = document.getElementById("mobileRegionNavLocation");
 const mobileRegionContent = document.getElementById("mobileRegionContent");
@@ -27,18 +29,14 @@ cross.addEventListener("click", (e) => {
   e.preventDefault();
   cross.classList.toggle("opened");
   cross.setAttribute("aria-expanded", cross.classList.contains("opened"));
-});
-
-cross.addEventListener("click", () => {
   toggleClass(mobileMenu, "mobile__burger-menu-show");
+  toggleClass(overlay, "mobile__burger-overlay");
+  toggleClass(body, "no__scroll");
 });
 
 //mobile region nav selection animation
 mobileRegionBtn.addEventListener("click", () => {
   toggleClass(mobileRegionContent, "mobile__region-location-show");
-});
-
-mobileRegionBtn.addEventListener("click", () => {
   toggleClass(mobileRegionBtn, "active__li");
 });
 
@@ -50,17 +48,11 @@ languageBtn.addEventListener("click", () => {
 //mobile entertainments
 mobileEntertainments.addEventListener("click", () => {
   toggleClass(mobileMenuEntertainments, "mobile__menu-entertainments-show");
-});
-
-mobileEntertainments.addEventListener("click", () => {
   toggleClass(mobileEntertainments, "active__li");
 });
 
 //mobile events
 mobileEvents.addEventListener("click", () => {
   toggleClass(mobileEventsContent, "mobile__events-show");
-});
-
-mobileEvents.addEventListener("click", () => {
   toggleClass(mobileEvents, "active__li");
 });
