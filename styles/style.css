@@ -442,6 +442,7 @@ header {
 .mobile__burger-map {
   max-width: 282px;
   max-height: 300px;
+  margin-bottom: 20px;
 }
 
 .burger__time-header {
@@ -454,7 +455,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .mobile__burger-route button + button {

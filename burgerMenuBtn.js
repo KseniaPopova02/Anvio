@@ -31,7 +31,7 @@ const mobileEventsContent = document.getElementById("mobileEventsContent");
 //open and close animation
 cross.addEventListener("click", (e) => {
   e.preventDefault();
-  cross.classList.toggle("opened");
+  toggleClass(cross, "opened");
   cross.setAttribute("aria-expanded", cross.classList.contains("opened"));
   toggleClass(mobileMenu, "mobile__burger-menu-show");
   toggleClass(overlay, "mobile__burger-overlay");
@@ -67,3 +67,30 @@ mobileSubtract.addEventListener("click", () => {
   toggleClass(overlay, "mobile__burger-overlay");
   toggleClass(body, "no__scroll");
 });
+
+// hide menu
+window.addEventListener("click", (e) => {
+  {
+    const path = e.target;
+    if (
+      !path.closest(".mobile__burger-menu") &&
+      !path.closest(".burger__button")
+    ) {
+      mobileMenu.classList.remove("mobile__burger-menu-show");
+      cross.classList.remove("opened");
+      overlay.classList.remove("mobile__burger-overlay");
+      body.classList.remove("no__scroll");
+    }
+  }
+});
+
+// window.addEventListener("click", (e) => {
+//   {
+//     const path = e.composedPath().includes(mobileSubtract);
+//     if (!path) {
+//       mobileSubtract.classList.remove("mobile__burger-menu-show");
+//       overlay.classList.remove("mobile__burger-overlay");
+//       body.classList.remove("no__scroll");
+//     }
+//   }
+// });
