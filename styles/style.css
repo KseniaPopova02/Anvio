@@ -337,6 +337,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .mobile__manu-text {
   margin-right: 10px;

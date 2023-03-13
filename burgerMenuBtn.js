@@ -14,6 +14,10 @@ const mobileRegionContent = document.getElementById("mobileRegionContent");
 const languageBtn = document.getElementById("languageBtn");
 const mobileLanguages = document.getElementById("mobileLanguages");
 
+//mobile subtract
+const mobileSubtract = document.getElementById("mobileSubtract");
+const mobileMenuLocation = document.getElementById("mobileMenuLocation");
+
 //mobile entertainments
 const mobileEntertainments = document.getElementById("mobileEntertainments");
 const mobileMenuEntertainments = document.getElementById(
@@ -55,4 +59,11 @@ mobileEntertainments.addEventListener("click", () => {
 mobileEvents.addEventListener("click", () => {
   toggleClass(mobileEventsContent, "mobile__events-show");
   toggleClass(mobileEvents, "active__li");
+});
+
+//mobile location
+mobileSubtract.addEventListener("click", () => {
+  toggleClass(mobileMenuLocation, "mobile__burger-menu-show");
+  toggleClass(overlay, "mobile__burger-overlay");
+  toggleClass(body, "no__scroll");
 });
