@@ -170,14 +170,15 @@ header {
   top: 80px;
   right: 10px;
   transition: all 0.3s;
-  padding: 30px;
-  width: 0;
+  padding: 0;
+  height: 0;
   overflow: hidden;
 }
 
 .mobile__burger-menu-show {
   transform: translateX(0);
-  width: auto;
+  padding: 30px;
+  height: 650px;
   overflow: visible;
 }
 
