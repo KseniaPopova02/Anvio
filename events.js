@@ -15,12 +15,10 @@ arrowEvents.addEventListener("click", () => {
 
 //hiding block of events if you click outside of it
 window.addEventListener("click", (e) => {
-  {
-    const path = e.composedPath().includes(nestedLi);
-    if (!path) {
-      headerEvents.classList.remove("header__events-bg-show");
-      nestedLi.classList.remove("active__li");
-    }
+  const path = e.composedPath().includes(nestedLi);
+  if (!path) {
+    headerEvents.classList.remove("header__events-bg-show");
+    nestedLi.classList.remove("active__li");
   }
 });
 

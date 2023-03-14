@@ -11,13 +11,11 @@ languageBtn.addEventListener("click", () => {
 
 //hiding block of languages if you click outside of it
 window.addEventListener("click", (e) => {
-  {
-    const path = e.composedPath().includes(nestedLi);
+  const path = e.composedPath().includes(nestedLi);
 
-    if (!path) {
-      headerLanguage.classList.remove("header__language-show");
-      nestedLi.classList.remove("active__li");
-    }
+  if (!path) {
+    headerLanguage.classList.remove("header__language-show");
+    nestedLi.classList.remove("active__li");
   }
 });
 
