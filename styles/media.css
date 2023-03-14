@@ -31,3 +31,9 @@
     margin-left: 15px;
   }
 }
+
+@media (max-width: 320px) {
+  .mobile__burger-wrapper {
+    height: 550px;
+  }
+}

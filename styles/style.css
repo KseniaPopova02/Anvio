@@ -199,7 +199,6 @@ header {
   padding: 30px;
   height: 680px;
   overflow-y: scroll;
-  z-index: 1;
 }
 
 .mobile__burger-menu-show {
