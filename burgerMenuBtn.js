@@ -86,9 +86,25 @@ window.addEventListener("click", (e) => {
 
 // window.addEventListener("click", (e) => {
 //   {
-//     const path = e.composedPath().includes(mobileSubtract);
-//     if (!path) {
+//     const path = e.target;
+//     if (
+//       !path.closest(".mobile__subtract") &&
+//       !path.closest("#mobileMenuLocation")
+//     ) {
 //       mobileSubtract.classList.remove("mobile__burger-menu-show");
+//     }
+//   }
+// });
+
+// window.addEventListener("click", (e) => {
+//   {
+//     const path = e.target;
+//     if (
+//       !path.closest(".mobile__subtract") &&
+//       !path.closest(".mobile__burger-menu") &&
+//       !path.closest(".mobile__burger-menu") &&
+//       !path.closest(".burger__button")
+//     ) {
 //       overlay.classList.remove("mobile__burger-overlay");
 //       body.classList.remove("no__scroll");
 //     }

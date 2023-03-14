@@ -196,12 +196,14 @@ header {
 
 .mobile__burger-wrapper {
   padding: 30px;
+  height: 680px;
+  overflow-y: scroll;
+  z-index: 1;
 }
 
 .mobile__burger-menu-show {
   transform: translateX(0);
   height: auto;
-  overflow-y: auto;
 }
 
 .mobile__dimmed-screen {
