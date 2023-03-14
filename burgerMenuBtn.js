@@ -31,6 +31,10 @@ const mobileMenuEntertainments = document.getElementById(
 const mobileEvents = document.getElementById("mobileEvents");
 const mobileEventsContent = document.getElementById("mobileEventsContent");
 
+//mobile wrappers
+const locationMenuWrapper = document.getElementById("locationMenuWrapper");
+const MenuWrapper = document.getElementById("MenuWrapper");
+
 //open and close animation
 cross.addEventListener("click", (e) => {
   e.preventDefault();
@@ -100,3 +104,11 @@ window.addEventListener("click", (e) => {
     }
   }
 });
+
+//change height depending on screen height
+if (innerWidth < 377) {
+  locationMenuWrapper.style.height = `${innerHeight - 100}px`;
+  MenuWrapper.style.height = `${innerHeight - 100}px`;
+}
+
+console.log(innerWidth);

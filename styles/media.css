@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .container {
     padding: 0 10px;
   }
@@ -30,6 +30,10 @@
   .header__mobile-btn + .header__mobile-btn {
     margin-left: 15px;
   }
+
+  /* .mobile__burger-wrapper {
+    height: 580px;
+  } */
 }
 
 @media (max-width: 320px) {
