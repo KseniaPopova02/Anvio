@@ -127,7 +127,7 @@ svg {
   cursor: pointer;
   display: flex;
 }
-.line {
+.burger__menu-line {
   fill: none;
   stroke: black;
   stroke-width: 6;
