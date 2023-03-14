@@ -76,7 +76,7 @@ header {
   flex-wrap: wrap;
   width: 736px;
   height: 0;
-  transition: width 0.3s, height 0.3s;
+  transition: padding 0.4s, height 0.3s;
 
   overflow: hidden;
 }
@@ -501,6 +501,7 @@ header {
   padding: 0 30px;
   overflow: hidden;
   text-transform: uppercase;
+  transition: height 0.4s, padding 0.5s;
 }
 
 .header__events-content {
@@ -544,7 +545,7 @@ header {
   justify-content: center;
   position: absolute;
   display: flex;
-  transition: height 0.3s;
+  transition: height 0.4s, padding 0.5s;
   height: 0;
   padding: 0 30px;
   overflow: hidden;
@@ -594,7 +595,7 @@ header {
   position: absolute;
   display: flex;
   flex-direction: column;
-  transition: height 0.3s;
+  transition: height 0.4s, padding 0.5s;
   height: 0;
   padding: 0 30px;
   overflow: hidden;
