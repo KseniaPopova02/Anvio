@@ -6,6 +6,8 @@ const mobileMenu = document.getElementById("mobileMenu");
 
 //overlay
 const overlay = document.getElementById("overlay");
+const overlayLocation = document.getElementById("overlay2");
+
 //region nav
 const mobileRegionBtn = document.getElementById("mobileRegionNavLocation");
 const mobileRegionContent = document.getElementById("mobileRegionContent");
@@ -17,6 +19,7 @@ const mobileLanguages = document.getElementById("mobileLanguages");
 //mobile subtract
 const mobileSubtract = document.getElementById("mobileSubtract");
 const mobileMenuLocation = document.getElementById("mobileMenuLocation");
+const htmlTag = document.getElementsByTagName("html");
 
 //mobile entertainments
 const mobileEntertainments = document.getElementById("mobileEntertainments");
@@ -64,8 +67,8 @@ mobileEvents.addEventListener("click", () => {
 //mobile location
 mobileSubtract.addEventListener("click", () => {
   toggleClass(mobileMenuLocation, "mobile__burger-menu-show");
-  toggleClass(overlay, "mobile__burger-overlay");
-  toggleClass(body, "no__scroll");
+  toggleClass(overlayLocation, "mobile__burger-overlay2");
+  toggleClass(body, "no__scroll2");
 });
 
 // hide menu
@@ -84,29 +87,16 @@ window.addEventListener("click", (e) => {
   }
 });
 
-// window.addEventListener("click", (e) => {
-//   {
-//     const path = e.target;
-//     if (
-//       !path.closest(".mobile__subtract") &&
-//       !path.closest("#mobileMenuLocation")
-//     ) {
-//       mobileSubtract.classList.remove("mobile__burger-menu-show");
-//     }
-//   }
-// });
-
-// window.addEventListener("click", (e) => {
-//   {
-//     const path = e.target;
-//     if (
-//       !path.closest(".mobile__subtract") &&
-//       !path.closest(".mobile__burger-menu") &&
-//       !path.closest(".mobile__burger-menu") &&
-//       !path.closest(".burger__button")
-//     ) {
-//       overlay.classList.remove("mobile__burger-overlay");
-//       body.classList.remove("no__scroll");
-//     }
-//   }
-// });
+window.addEventListener("click", (e) => {
+  {
+    const path = e.target;
+    if (
+      !path.closest(".mobile__subtract") &&
+      !path.closest("#mobileMenuLocation")
+    ) {
+      mobileMenuLocation.classList.remove("mobile__burger-menu-show");
+      overlayLocation.classList.remove("mobile__burger-overlay2");
+      body.classList.remove("no__scroll2");
+    }
+  }
+});

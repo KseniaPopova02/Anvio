@@ -186,6 +186,9 @@ svg {
 .no__scroll {
   overflow: hidden;
 }
+.no__scroll2 {
+  overflow: hidden;
+}
 
 .mobile__burger-menu {
   transform: translateX(270px);
@@ -194,20 +197,25 @@ svg {
   border-radius: 30px;
   top: 80px;
   right: 10px;
-  transition: all 0.3s;
+  transition: height 0.3s, transform 0.3s;
   height: 0;
+  padding: 0;
   overflow: hidden;
+}
+.mobile__svg {
+  font-size: 24px;
 }
 
 .mobile__burger-wrapper {
   text-transform: uppercase;
-  padding: 30px;
   height: 680px;
   overflow-y: scroll;
+  padding: 30px;
 }
 
 .mobile__burger-menu-show {
   transform: translateX(0);
+
   height: auto;
 }
 
@@ -427,9 +435,10 @@ svg {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  max-width: 222px;
+  padding: 15px 30px;
   text-align: center;
-  margin-bottom: 11px;
+  width: 300px;
+  text-transform: capitalize;
 }
 
 .mobile__burger-metro {
@@ -446,12 +455,14 @@ svg {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .mobile__burger-map {
-  max-width: 282px;
+  max-width: 100%;
   max-height: 300px;
   margin-bottom: 20px;
+  border-radius: 30px;
 }
 
 .burger__time-header {
@@ -482,8 +493,29 @@ svg {
   border-radius: 50px;
   padding: 10px 20px;
   background-color: transparent;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
   width: 222px;
 }
+
+.mobile__location-wrapper {
+  text-transform: uppercase;
+  height: 803px;
+  overflow-y: scroll;
+}
+
+.mobile__burger-overlay2 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #000;
+  opacity: 0.3;
+  width: 100%;
+  height: 100vh;
+  z-index: -10;
+}
+
 /* active li color */
 
 .active__li {
