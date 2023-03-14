@@ -35,5 +35,6 @@
 @media (max-width: 320px) {
   .mobile__burger-wrapper {
     height: 550px;
+    margin-left: 5px;
   }
 }
