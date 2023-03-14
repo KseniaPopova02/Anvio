@@ -19,6 +19,10 @@ header {
   text-transform: uppercase;
 }
 
+svg {
+  stroke: #000;
+}
+
 .header__nav-list {
   display: flex;
 }
@@ -31,6 +35,7 @@ header {
 .header__arrow {
   line-height: 0;
   margin-left: 10px;
+  stroke: #000;
 }
 
 .upper__li {
@@ -197,7 +202,7 @@ header {
 .mobile__burger-wrapper {
   text-transform: uppercase;
   padding: 30px;
-  height: 680px;
+  height: 700px;
   overflow-y: scroll;
 }
 
