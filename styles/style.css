@@ -557,13 +557,12 @@ header {
   text-transform: uppercase;
 }
 
-.header__location-country div + div {
+.header__location-country li + li {
   margin-top: 30px;
 }
 
 .location__header {
   display: inline-block;
-  margin-bottom: 30px;
   text-transform: capitalize;
   font-weight: 700;
 }
@@ -572,7 +571,7 @@ header {
   text-transform: uppercase;
 }
 
-.header__location-town div + div {
+.header__location-town li + li {
   margin-top: 30px;
 }
 
