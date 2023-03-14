@@ -110,5 +110,3 @@ if (innerWidth < 377) {
   locationMenuWrapper.style.height = `${innerHeight - 100}px`;
   MenuWrapper.style.height = `${innerHeight - 100}px`;
 }
-
-console.log(innerWidth);
