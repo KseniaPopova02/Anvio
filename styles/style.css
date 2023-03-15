@@ -696,6 +696,10 @@ svg {
   right: 250px;
 }
 
+.about__info-img {
+  margin-right: 15px;
+}
+
 .about__wrapper {
   color: #fff;
   display: flex;
