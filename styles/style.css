@@ -670,10 +670,11 @@ svg {
   z-index: -1000;
   background-color: #ce2127;
   position: absolute;
-  width: 55em;
-  height: 55em;
-  left: -774px;
-  top: -1155px;
+  width: 150em;
+  height: 150em;
+  right: 15%;
+  bottom: -40%;
+  overflow: hidden;
 }
 
 .about__svg-v {
