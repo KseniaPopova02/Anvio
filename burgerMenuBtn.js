@@ -19,7 +19,6 @@ const mobileLanguages = document.getElementById("mobileLanguages");
 //mobile subtract
 const mobileSubtract = document.getElementById("mobileSubtract");
 const mobileMenuLocation = document.getElementById("mobileMenuLocation");
-const htmlTag = document.getElementsByTagName("html");
 
 //mobile entertainments
 const mobileEntertainments = document.getElementById("mobileEntertainments");
@@ -33,7 +32,7 @@ const mobileEventsContent = document.getElementById("mobileEventsContent");
 
 //mobile wrappers
 const locationMenuWrapper = document.getElementById("locationMenuWrapper");
-const MenuWrapper = document.getElementById("MenuWrapper");
+const menuWrapper = document.getElementById("MenuWrapper");
 
 //open and close animation
 cross.addEventListener("click", (e) => {
@@ -106,7 +105,19 @@ window.addEventListener("click", (e) => {
 });
 
 //change height depending on screen height
-if (innerWidth < 377) {
+const locationWrapperStyles = window.getComputedStyle(locationMenuWrapper);
+const locationWrapperHeight = locationWrapperStyles.height.replace(
+  /[^0-9]/g,
+  ""
+);
+const menuWrapperStyles = window.getComputedStyle(menuWrapper);
+const menuWrapperHeight = menuWrapperStyles.height.replace(/[^0-9]/g, "");
+
+if (innerHeight < locationWrapperHeight) {
   locationMenuWrapper.style.height = `${innerHeight - 100}px`;
-  MenuWrapper.style.height = `${innerHeight - 100}px`;
+  console.log(innerHeight < locationWrapperHeight);
+}
+if (innerHeight < menuWrapperHeight) {
+  menuWrapper.style.height = `${innerHeight - 100}px`;
+  console.log(innerHeight < menuWrapperHeight);
 }
