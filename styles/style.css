@@ -54,6 +54,10 @@ svg {
   text-transform: uppercase;
 }
 
+.li__relative {
+  position: relative;
+}
+
 /* Header mobile  */
 .header__mobile-wrapper {
   display: flex;
@@ -73,8 +77,8 @@ svg {
 .header__entertainments {
   background-color: #fff;
   border-radius: 0 30px 30px 30px;
-  top: 85%;
-  left: 22%;
+  top: 45px;
+  left: 0;
   justify-content: center;
   position: absolute;
   display: flex;
@@ -82,7 +86,6 @@ svg {
   width: 736px;
   height: 0;
   transition: padding 0.4s, height 0.3s;
-
   overflow: hidden;
 }
 
@@ -527,8 +530,8 @@ svg {
 .header__events {
   background-color: #fff;
   border-radius: 0 30px 30px 30px;
-  top: 85%;
-  left: 36%;
+  top: 45px;
+  left: 0;
   justify-content: center;
   position: absolute;
   display: flex;
@@ -577,8 +580,8 @@ svg {
 .header__location {
   background-color: #fff;
   border-radius: 30px 0 30px 30px;
-  top: 85%;
-  right: 10%;
+  top: 75px;
+  right: 190px;
   justify-content: center;
   position: absolute;
   display: flex;
@@ -626,8 +629,8 @@ svg {
 .header__language {
   background-color: #fff;
   border-radius: 30px 0 30px 30px;
-  top: 85%;
-  right: 3%;
+  top: 75px;
+  right: 30px;
   justify-content: center;
   position: absolute;
   display: flex;
