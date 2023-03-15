@@ -846,3 +846,59 @@ svg {
   color: #fff;
   background-color: transparent;
 }
+
+.about__video {
+  position: absolute;
+  top: 70px;
+  right: 10px;
+}
+
+.about__video-wrapper {
+  position: relative;
+}
+
+.about__video-play {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translate(-320%, -50%);
+}
+
+.about__video-img {
+  border-radius: 50%;
+}
+
+.about__location {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  height: 452px;
+  width: 452px;
+  position: absolute;
+  left: 50%;
+  top: 622px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__location-img {
+  width: 201px;
+  height: 201px;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+
+.about__location-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+
+.about__location-adress {
+  display: flex;
+}
+
+.about__location-adress svg {
+  margin-right: 10px;
+}
