@@ -664,6 +664,7 @@ svg {
 }
 .about__background-wrapper {
   line-height: 0;
+  overflow: hidden;
 }
 .about__background {
   border-radius: 50%;
@@ -679,20 +680,20 @@ svg {
 
 .about__svg-v {
   position: absolute;
-  width: 100%;
-  height: 1302px;
-  top: 44%;
-  transform: translateX(14%);
+  width: 1675px;
+  height: 100em;
   z-index: -900;
+  top: 0;
+  left: 0;
 }
 
 .about__svg-a {
   position: absolute;
-  width: 100%;
-  height: 1302px;
-  top: 50%;
-  transform: translateX(10%);
+  width: 1675px;
+  height: 100em;
   z-index: -900;
+  top: -250px;
+  right: 250px;
 }
 
 .about__wrapper {
