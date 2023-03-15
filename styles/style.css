@@ -287,10 +287,17 @@ svg {
   overflow: hidden;
 }
 
+.mobile__language-items {
+  cursor: pointer;
+}
+
 .mobile__language-show {
   margin-bottom: 20px;
   height: auto;
   overflow: visible;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
 }
 
 .mobile__button-wrapper {
