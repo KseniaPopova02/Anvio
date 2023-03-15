@@ -768,7 +768,8 @@ svg {
   width: 0;
 }
 
-.about__arrow-prev::after {}
+.about__arrow-prev::after {
+}
 
 @import url("./normalize.css");
 @import url("./global.css");
@@ -1446,6 +1447,7 @@ svg {
   height: 2262px;
   left: -774px;
   top: -1155px;
+  overflow: hidden;
 }
 
 .about__svg-v {
@@ -1539,6 +1541,3 @@ svg {
   color: #000;
   width: 0;
 }
-
-.about__arrow-prev::after {}
->>>>>>> 10615554c3c1ffce16dcd6b8056acac500d3c69b
