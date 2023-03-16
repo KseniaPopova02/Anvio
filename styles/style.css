@@ -680,10 +680,10 @@ svg {
   z-index: -1000;
   background-color: #ce2127;
   position: absolute;
-  width: 150em;
-  height: 150em;
+  width: 200vh;
+  height: 200vh;
   right: 15%;
-  bottom: -40%;
+  bottom: -50%;
   overflow: hidden;
 }
 
@@ -713,7 +713,7 @@ svg {
   color: #fff;
   display: flex;
   flex-direction: column;
-  padding-top: 160px;
+  margin-top: 160px;
   margin-left: 20px;
   min-width: 0;
 }
@@ -760,14 +760,14 @@ svg {
 .swiper-container {
   margin-left: 0;
   margin-right: 0;
-  width: 650px;
+  width: 500px;
 }
 
 .swiper__slide-content {
   background: rgba(255, 255, 255, 0.3);
   border-radius: 30px;
   padding: 30px 50px;
-  width: 500px;
+  width: 400px;
   height: 140px;
 }
 
@@ -777,7 +777,7 @@ svg {
 
 .swiper__slider-wrapper {
   position: relative;
-  width: 600px;
+  width: 500px;
 }
 
 .swiper__arrow {
@@ -823,17 +823,17 @@ svg {
 .slide__img-cogwheel {
   position: absolute;
   top: 0;
-  right: 50px;
+  right: 0px;
 }
 .slide__img-glass {
   position: absolute;
   bottom: 0;
-  right: 50px;
+  right: 0px;
 }
 .slide__img-group {
   position: absolute;
   bottom: 0;
-  right: 50px;
+  right: 0px;
 }
 
 .swiper__slide-btn {
@@ -867,6 +867,11 @@ svg {
 
 .about__video-img {
   border-radius: 50%;
+}
+
+.about__video-img {
+  width: 858px;
+  height: 858px;
 }
 
 .about__location {
