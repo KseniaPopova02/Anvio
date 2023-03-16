@@ -671,6 +671,12 @@ svg {
 .about {
   position: relative;
 }
+
+.about__wrapper {
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 160px;
+}
 .about__background-wrapper {
   line-height: 0;
   overflow: hidden;
@@ -680,8 +686,8 @@ svg {
   z-index: -1000;
   background-color: #ce2127;
   position: absolute;
-  width: 200vh;
-  height: 200vh;
+  width: 300vh;
+  height: 300vh;
   right: 15%;
   bottom: -50%;
   overflow: hidden;
@@ -709,13 +715,10 @@ svg {
   margin-right: 15px;
 }
 
-.about__wrapper {
+.about__title-wrapper {
   color: #fff;
   display: flex;
   flex-direction: column;
-  margin-top: 160px;
-  margin-left: 20px;
-  min-width: 0;
 }
 
 .about__title {
@@ -788,20 +791,19 @@ svg {
   height: 60px;
   text-align: center;
   border-radius: 50%;
+  top: 50%;
 }
 
 .swiper__arrow-prev {
   left: -15px;
-  top: 60%;
 }
 .swiper__arrow-next {
-  top: 60%;
   right: -15px;
 }
 
 .swiper-pagination {
   position: absolute;
-  bottom: -10% !important;
+  bottom: -20% !important;
 }
 
 .swiper-pagination-bullet-active {
@@ -886,6 +888,7 @@ svg {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #000;
 }
 
 .about__location-img {
@@ -915,4 +918,76 @@ svg {
 .adress__subtract {
   fill: #ce2127;
   font-size: 64px;
+}
+
+.about__mobile-adress {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.about__adress-info {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.about__info-wrapper {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.about__info-images {
+  display: none;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.about__images-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* color: linear-gradient(to top rgba(206, 33, 39, 0.5)); */
+}
+
+.about__images-dino {
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+
+.about__adress-metro {
+  display: flex;
+}
+
+.about__metro-logo {
+  margin-right: 7px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.about__mobile-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__mobile-button {
+  padding: 10px 20px;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  color: #fff;
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+
+.about__mobile-button + .about__mobile-button {
+  margin-top: 10px;
+}
+
+.about__mobile-button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s;
 }
