@@ -8,6 +8,7 @@ header {
   background: rgba(255, 255, 255, 0.9);
   position: relative;
   z-index: 200;
+  margin-bottom: 160px;
 }
 
 .header__logo {
