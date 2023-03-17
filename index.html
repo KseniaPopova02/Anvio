@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+    <title>Anvio</title>
+  </head>
+  <body style="background-color: #ce2127" id="body">
+    <header>
+      <div class="container">
+        <div class="header__content">
+          <div class="header__wrapper">
+            <a href="index.html" class="header__logo">
+              <img src="./images/anvio-logo.png" alt="logo" />
+            </a>
+            <div class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-list upper__li li__relative">
+                  <a
+                    class="header__nav-item"
+                    id="entertainmentNestedLi"
+                    href="#"
+                    >Развлечения</a
+                  >
+                  <a href="#">
+                    <svg
+                      class="header__arrow"
+                      id="entertainmentNestedSvg"
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 18 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.492767 0.75L8.99277 9.25L17.4928 0.75"
+                        stroke="color"
+                      />
+                    </svg>
+                  </a>
+                  <div class="header__entertainments" id="headerEntertainments">
+                    <a href="#" class="header__entertainments-content">
+                      <div class="header__entertainments-img">
+                        <img src="./images/Arena.jpg" alt="arena" />
+                      </div>
+                      <div class="header__entertainments-title">арена</div>
+                    </a>
+                    <a href="#" class="header__entertainments-content">
+                      <div class="header__entertainments-img">
+                        <img src="./images/cube.jpg" alt="cube" />
+                      </div>
+                      <div href="#" class="header__entertainments-title">
+                        куб
+                      </div>
+                    </a>
+                    <a href="#" class="header__entertainments-content">
+                      <div class="header__entertainments-img">
+                        <img src="./images/attractions.jpg" alt="attractions" />
+                      </div>
+                      <div href="#" class="header__entertainments-title">
+                        аттракционы
+                      </div>
+                    </a>
+                    <a href="#" class="header__entertainments-content">
+                      <div class="header__entertainments-img">
+                        <img src="./images/stands.jpg" alt="stands" />
+                      </div>
+                      <div href="#" class="header__entertainments-title">
+                        стенды
+                      </div>
+                    </a>
+                    <a href="#" class="header__entertainments-content">
+                      <div class="header__entertainments-img">
+                        <img src="./images/pvp.jpg" alt="pvp" />
+                      </div>
+                      <div href="#" class="header__entertainments-title">
+                        pvp-соревнования
+                      </div>
+                    </a>
+                    <a href="#" class="header__entertainments-content">
+                      <div class="header__entertainments-img">
+                        <img src="./images/park.jpg" alt="park" />
+                      </div>
+                      <div href="#" class="header__entertainments-title">
+                        билеты в парк
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="header__nav-item upper__li">
+                  <a href="#">эмоции</a>
+                </li>
+                <li class="header__nav-list upper__li li__relative" id="events">
+                  <a class="header__nav-item" id="eventsNestedLi" href="#"
+                    >мероприятия</a
+                  >
+                  <a id="arrowEvents" href="#">
+                    <svg
+                      class="header__arrow"
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 18 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.492767 0.75L8.99277 9.25L17.4928 0.75"
+                        stroke="color"
+                      />
+                    </svg>
+                  </a>
+                  <div class="header__events" id="headerEvents">
+                    <div class="header__events-content">
+                      <img src="./images/balloons.svg" alt="balloons" />
+                      <a href="#" class="header__events-text"
+                        >Детские дни рождения</a
+                      >
+                    </div>
+                    <div class="header__events-content">
+                      <img src="./images/glass.svg" alt="glass" />
+                      <a href="#" class="header__events-text"
+                        >Взрослые дни рождения</a
+                      >
+                    </div>
+                    <div class="header__events-content">
+                      <img src="./images/clown.svg" alt="clown" />
+                      <a href="#" class="header__events-text">корпоративы</a>
+                    </div>
+                    <div class="header__events-content">
+                      <img src="./images/star.svg" alt="star" />
+                      <a href="#" class="header__events-text"
+                        >нестандартное мероприятие</a
+                      >
+                    </div>
+                  </div>
+                </li>
+
+                <li class="header__nav-item upper__li">
+                  <a href="#">отзывы</a>
+                </li>
+              </ul>
+            </div>
+
+            <button class="header__button">купить билет</button>
+
+            <div class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item upper__li header__nav-phone">
+                  <a href="tel:+380672963030">+38 (067) 296-30-30</a>
+                </li>
+                <li class="header__nav-list upper__li" id="location">
+                  <a
+                    class="header__nav-item li__relative"
+                    id="locationNestedLi"
+                    href="#"
+                    >Киев</a
+                  >
+                  <a class="header__nav-item" href="#">
+                    <svg
+                      class="header__arrow"
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 18 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.492767 0.75L8.99277 9.25L17.4928 0.75"
+                        stroke="color"
+                      />
+                    </svg>
+                  </a>
+                  <div class="header__location" id="headerLocation">
+                    <ul class="header__location-country">
+                      <li><span class="location__header">Страна</span></li>
+                      <li><a href="#">Кыргызская республика</a></li>
+                      <li><a href="#">Азербайджан</a></li>
+                      <li><a href="#">США</a></li>
+                      <li><a href="#">Украина</a></li>
+                      <li><a href="#">Бельгия</a></li>
+                      <li><a href="#">Саудовская аравия</a></li>
+                      <li><a href="#">Франция</a></li>
+                      <li><a href="#">Египет</a></li>
+                    </ul>
+                    <div class="header__location-line"></div>
+                    <ul class="header__location-town">
+                      <li>
+                        <a href="#"
+                          ><span class="location__header">Город</span></a
+                        >
+                      </li>
+                      <li><a href="#">Киев</a></li>
+                      <li><a href="#">Днепр (скоро)</a></li>
+                      <li><a href="#">Львов (скоро)</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header__nav-item upper__li">
+                  <a href="#">Войти</a>
+                </li>
+                <li class="header__nav-list upper__li" id="languageBtn">
+                  <a class="header__nav-item" id="languageNestedLi" href="#">
+                    Ua
+                  </a>
+                  <a class="header__nav-item" href="#">
+                    <svg
+                      class="header__arrow"
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 18 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.492767 0.75L8.99277 9.25L17.4928 0.75"
+                        stroke="color"
+                      />
+                    </svg>
+                  </a>
+                  <ul class="header__language" id="headerLanguage">
+                    <li class="header__language-selection">
+                      <a href="#">харьковский</a>
+                    </li>
+                    <li class="header__language-selection">
+                      <a href="#">english</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="header__mobile-wrapper">
+            <a href="" class="header__mobile-logo">
+              <img src="./images/header__mobile-logo.png" alt="logo" />
+            </a>
+            <div class="header__mobile-wrapper">
+              <button
+                class="header__mobile-btn mobile__subtract"
+                id="mobileSubtract"
+              >
+                <svg
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 20 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3.66905 16.5564C0.110321 12.9976 0.110313 7.22779 3.66905 3.66905C7.22779 0.110313 12.9976 0.110321 16.5564 3.66905C20.1151 7.22778 20.1151 12.9976 16.5564 16.5564L10.1127 23L3.66905 16.5564ZM7.53524 7.53524C6.11176 8.95872 6.11175 11.2667 7.53524 12.6902C8.95873 14.1137 11.2667 14.1136 12.6902 12.6902C14.1136 11.2667 14.1137 8.95873 12.6902 7.53524C11.2667 6.11175 8.95872 6.11176 7.53524 7.53524Z"
+                    stroke="color"
+                  />
+                </svg>
+              </button>
+              <button class="header__mobile-btn mobile__phone">
+                <a href="tel:+380672963030">
+                  <svg
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.9118 15.9201V18.9201C20.9129 19.1986 20.8559 19.4743 20.7443 19.7294C20.6327 19.9846 20.4691 20.2137 20.2639 20.402C20.0587 20.5902 19.8164 20.7336 19.5525 20.8228C19.2887 20.912 19.0092 20.9452 18.7318 20.9201C15.6546 20.5857 12.6988 19.5342 10.1018 17.8501C7.68563 16.3148 5.63713 14.2663 4.1018 11.8501C2.41178 9.2413 1.36004 6.27109 1.0318 3.1801C1.00681 2.90356 1.03967 2.62486 1.1283 2.36172C1.21692 2.09859 1.35937 1.85679 1.54656 1.65172C1.73376 1.44665 1.9616 1.28281 2.21559 1.17062C2.46958 1.05843 2.74414 1.00036 3.0218 1.0001H6.0218C6.5071 0.995321 6.97759 1.16718 7.34556 1.48363C7.71353 1.80008 7.95388 2.23954 8.0218 2.7201C8.14842 3.68016 8.38325 4.62282 8.7218 5.5301C8.85634 5.88802 8.88546 6.27701 8.80571 6.65098C8.72595 7.02494 8.54066 7.36821 8.2718 7.6401L7.0018 8.9101C8.42535 11.4136 10.4983 13.4865 13.0018 14.9101L14.2718 13.6401C14.5437 13.3712 14.887 13.1859 15.2609 13.1062C15.6349 13.0264 16.0239 13.0556 16.3818 13.1901C17.2891 13.5286 18.2317 13.7635 19.1918 13.8901C19.6776 13.9586 20.1212 14.2033 20.4383 14.5776C20.7555 14.9519 20.924 15.4297 20.9118 15.9201Z"
+                      stroke="color"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </button>
+              <div
+                class="button__wrapper header__mobile-btn"
+                id="buttonWrapper"
+              >
+                <button
+                  class="burger__button"
+                  id="burgerButton"
+                  aria-label="Main Menu"
+                >
+                  <svg
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 100 100"
+                    fill="currentColor"
+                  >
+                    <path
+                      class="burger__menu-line line1"
+                      d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+                    />
+                    <path class="burger__menu-line line2" d="M 20,50 H 80" />
+                    <path
+                      class="burger__menu-line line3"
+                      d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div id="overlay"></div>
+          <div class="mobile__burger-menu" id="mobileMenu">
+            <div class="mobile__burger-wrapper" id="MenuWrapper">
+              <div class="mobile__region">
+                <div class="mobile__region-content">
+                  <div class="mobile__region-nav" id="mobileRegionNavLocation">
+                    <div>Киев</div>
+                    <div class="mobile__svg">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 19 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M1 0.75L9.5 9.25L18 0.75" stroke="color" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="mobile__region-nav" id="languageBtn">
+                    <div>Ua</div>
+                    <div class="mobile__svg">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 19 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M1 0.75L9.5 9.25L18 0.75" stroke="color" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="mobile__region-location" id="mobileRegionContent">
+                  <ul
+                    class="mobile__region-countries region__countries-content"
+                  >
+                    <li>
+                      <a href="#">
+                        <span class="mobile__location-header">Страна</span>
+                      </a>
+                    </li>
+                    <li><a href="#">Кыргызская республика</a></li>
+                    <li><a href="#">Азербайджан</a></li>
+                    <li><a href="#">США</a></li>
+                    <li><a href="#">Украина</a></li>
+                    <li><a href="#">Бельгия</a></li>
+                    <li><a href="#">Саудовская аравия</a></li>
+                    <li><a href="#">Франция</a></li>
+                    <li><a href="#">Египет</a></li>
+                  </ul>
+                  <div class="horizontal__line"></div>
+                  <ul class="mobile__region-towns region__countries-content">
+                    <li>
+                      <a href="#"
+                        ><span class="mobile__location-header">Город</span></a
+                      >
+                    </li>
+                    <li><a href="#">Киев</a></li>
+                    <li><a href="#">Днепр (скоро)</a></li>
+                    <li><a href="#">Львов (скоро)</a></li>
+                  </ul>
+                </div>
+              </div>
+              <ul class="mobile__language" id="mobileLanguages">
+                <li class="mobile__language-items">Харьковский</li>
+                <li class="mobile__language-items">Українськa</li>
+              </ul>
+              <div class="mobile__button-wrapper">
+                <button class="mobile__button button__buy">Купить билет</button>
+                <button class="mobile__button button__order">
+                  Заказать праздник
+                </button>
+                <div class="horizontal__line"></div>
+              </div>
+              <div class="mobile__menu-list">
+                <div
+                  class="mobile__menu-list-content"
+                  id="mobileEntertainments"
+                >
+                  <div class="mobile__manu-text">Развлечения</div>
+                  <div class="mobile__menu-arrow">
+                    <svg
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 19 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M1 0.75L9.5 9.25L18 0.75" stroke="color" />
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  class="mobile__menu-entertainments"
+                  id="mobileMenuEntertainments"
+                >
+                  <div>Арена</div>
+                  <div>Куб</div>
+                  <div>Атракционы</div>
+                  <div>Стенды</div>
+                  <div>PvP-соревнования</div>
+                  <div>Билет в парк</div>
+                </div>
+                <div class="horizontal__line"></div>
+                <div class="mobile__menu-list-content" id="mobileEvents">
+                  <div class="mobile__manu-text">Праздники</div>
+                  <div class="mobile__menu-arrow">
+                    <svg
+                      width="1em"
+                      height="1em"
+                      viewBox="0 0 19 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M1 0.75L9.5 9.25L18 0.75" stroke="color" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="mobile__events" id="mobileEventsContent">
+                  <div class="mobile__events-wrapper">
+                    <div class="mobile__events-svg">
+                      <img src="./images/balloons.svg" alt="ballons" />
+                    </div>
+                    <div class="mobile__events-text">Детские дни рождения</div>
+                  </div>
+                  <div class="mobile__events-wrapper">
+                    <div class="mobile__events-svg">
+                      <img src="./images/glass.svg" alt="glass" />
+                    </div>
+                    <div class="mobile__events-text">Взрослые дни рождения</div>
+                  </div>
+                  <div class="mobile__events-wrapper">
+                    <div class="mobile__events-svg">
+                      <img src="./images/clown.svg" alt="star" />
+                    </div>
+                    <div class="mobile__events-text">корпоративы</div>
+                  </div>
+                  <div class="mobile__events-wrapper">
+                    <div class="mobile__events-svg">
+                      <img src="./images/star.svg" alt="star" />
+                    </div>
+                    <div class="mobile__events-text">
+                      нестандартное мероприятие
+                    </div>
+                  </div>
+                </div>
+
+                <div class="horizontal__line"></div>
+                <div class="mobile__menu-list-content">
+                  <div class="mobile__manu-text">Сертификаты</div>
+                </div>
+                <div class="horizontal__line"></div>
+                <div class="mobile__menu-list-content">
+                  <div class="mobile__manu-text">Контакты</div>
+                </div>
+                <div class="horizontal__line"></div>
+              </div>
+              <div class="mobile__menu-info">
+                <div class="mobile__menu-email">info@anviovr.com</div>
+                <div class="mobile__menu-telephone">+38 (067) 296-30-30</div>
+              </div>
+              <div class="mobile__menu-social">
+                <a href="#" class="mobile__social-item">
+                  <img src="./images/telegram.svg" alt="telegram" />
+                </a>
+                <a href="#" class="mobile__social-item">
+                  <img src="./images/whatsapp.svg" alt="whatsapp" />
+                </a>
+                <a href="#" class="mobile__social-item">
+                  <img src="./images/fb.svg" alt="facebook" />
+                </a>
+                <a href="#" class="mobile__social-item">
+                  <img src="./images/tiktok.svg" alt="tiktok" />
+                </a>
+                <a href="#" class="mobile__social-item">
+                  <img src="./images/youtube.svg" alt="youtube" />
+                </a>
+              </div>
+              <div class="horizontal__line"></div>
+              <div class="mobile__menu-login">
+                <div class="mobile__svg-login">
+                  <svg
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22 23V20.6667C22 19.429 21.4732 18.242 20.5355 17.3668C19.5979 16.4917 18.3261 16 17 16H7C5.67392 16 4.40215 16.4917 3.46447 17.3668C2.52678 18.242 2 19.429 2 20.6667V23"
+                      stroke="color"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 11C14.7614 11 17 8.76142 17 6C17 3.23858 14.7614 1 12 1C9.23858 1 7 3.23858 7 6C7 8.76142 9.23858 11 12 11Z"
+                      stroke="color"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <a href="#">Войти</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="overlay2"></div>
+          <div
+            class="mobile__burger-menu mobile__location-menu"
+            id="mobileMenuLocation"
+          >
+            <div class="mobile__location-wrapper" id="locationMenuWrapper">
+              <div class="mobile__burger-adress">
+                Киев, ул. Вадима Гетьмана, 6, ТРЦ Cosmo Multimall, Блок A, 2-ой
+                этаж
+              </div>
+              <div class="mobile__burger-metro">
+                <img src="./images/Kyiv_Metro.svg" alt="metro" />
+
+                <div>Шулявська — 400м</div>
+              </div>
+              <div class="mobile__burger-time">
+                <div class="burger__time-header">ВРЕМЯ РАБОТЫ</div>
+                <div class="burger__time-subtitle">
+                  Ежедневно с 10:00 до 22:00
+                </div>
+              </div>
+
+              <div class="mobile__burger-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.535020582993!2d30.43878517650259!3d50.44976107159201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc24d030cf41%3A0xfbed7f422ec96831!2sCosmo%20Multimall!5e0!3m2!1sru!2snl!4v1678713681405!5m2!1sru!2snl"
+                  width="282"
+                  height="300"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div class="mobile__burger-route">
+                <div class="burger__route-header">Как добраться</div>
+                <button class="burger__route-btn">На метро</button>
+                <button class="burger__route-btn">На автомобиле</button>
+                <button class="burger__route-btn">Google Карты</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script type="module" src="burgerMenuBtn.js"></script>
+    <script type="module" src="entertainment.js"></script>
+    <script type="module" src="events.js"></script>
+    <script type="module" src="location.js"></script>
+    <script type="module" src="language.js"></script>
+  </body>
+</html>
