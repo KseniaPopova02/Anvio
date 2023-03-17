@@ -671,13 +671,13 @@ header {
 /* About */
 .about {
   position: relative;
-  background-color: #ce2127;
+  background-image: url("../images/circle__bg.png");
+  background-repeat: no-repeat;
 }
 
 .about__wrapper {
   color: #fff;
   margin-left: 40px;
-  margin-top: 160px;
 }
 .about__background-wrapper {
   line-height: 0;
