@@ -8,16 +8,22 @@
   transition: 1s all;
   opacity: 1;
   visibility: visible;
+  background-color: #ce2127;
 }
 
 .loader {
   position: absolute;
-  width: 245px;
-  height: 245px;
+  width: 70px;
+  height: 70px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  animation: 1s spin infinite linear;
+  animation: 1.5s spin infinite linear;
+}
+
+.loader img {
+  width: 70px;
+  height: 70px;
 }
 
 .done {
