@@ -20,7 +20,7 @@ header {
   text-transform: uppercase;
 }
 
-svg {
+.mobile__svg svg {
   stroke: #000;
 }
 
