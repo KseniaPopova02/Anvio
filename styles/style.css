@@ -780,6 +780,8 @@ header {
   width: 100%;
   max-width: 400px;
   height: 140px;
+  position: relative;
+  z-index: 100;
 }
 
 .swiper {
@@ -958,14 +960,13 @@ header {
 .about__images-child {
   position: absolute;
   top: 0;
-  right: 0;
-  /* color: linear-gradient(to top rgba(206, 33, 39, 0.5)); */
+  right: 20px;
 }
 
 .about__images-dino {
   position: absolute;
   top: 50px;
-  left: 0;
+  left: -50px;
 }
 
 .about__adress-metro {
