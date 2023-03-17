@@ -991,3 +991,16 @@ svg {
   color: #000;
   transition: all 0.3s;
 }
+
+.reasons {
+  margin-top: 471px;
+}
+
+.reasons__info-img {
+  line-height: 0;
+  font-size: 80px;
+}
+
+.reasons__info-wrapper {
+  display: flex;
+}
