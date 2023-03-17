@@ -5,7 +5,7 @@
   .about__title {
     font-size: 60px;
     margin-bottom: 30px;
-    line-height: 30px;
+    line-height: 60px;
   }
   .about__subtitle {
     font-size: 30px;
@@ -95,9 +95,12 @@
   .about__info-images {
     display: block;
   }
+  .about__mobile-btns {
+    display: flex;
+  }
 }
 
-@media (max-width: 1165px) {
+@media (max-width: 550px) {
 }
 
 @media (max-width: 376px) {
