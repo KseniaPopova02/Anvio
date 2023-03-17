@@ -670,6 +670,7 @@ svg {
 /* About */
 .about {
   position: relative;
+  background-color: #ce2127;
 }
 
 .about__wrapper {
