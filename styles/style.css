@@ -661,6 +661,10 @@ header {
   height: 130px;
 }
 
+.header__mobile-btn {
+  stroke: #000;
+}
+
 /* if mobile menu open */
 
 .menu__open {
