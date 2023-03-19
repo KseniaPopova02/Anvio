@@ -674,7 +674,7 @@ header {
 /* About */
 .about {
   position: relative;
-  background-image: url("../images/circle__bg.png");
+  background-image: url("/images/circle__bg.png");
   background-repeat: no-repeat;
 }
 
