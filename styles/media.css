@@ -75,12 +75,18 @@
 
   .about__wrapper {
     margin-left: 0;
+    padding-bottom: 80px;
   }
   .about__title-wrapper {
     text-align: center;
   }
+
+  .swiper__slider-wrapper {
+    margin-bottom: 58px;
+  }
+
   .about__video {
-    display: none;
+    position: static;
   }
   .about__location {
     display: none;
@@ -108,6 +114,17 @@
   }
   .about__mobile-btns {
     display: flex;
+  }
+}
+
+@media (max-width: 663px) {
+  .about__video-img {
+    width: 320px;
+    height: 320px;
+  }
+  .about__video-play {
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -147,5 +164,9 @@
   .mobile__burger-wrapper {
     height: 550px;
     margin-left: 5px;
+  }
+  .about__video-img {
+    width: 300px;
+    height: 300px;
   }
 }

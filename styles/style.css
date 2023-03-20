@@ -880,13 +880,12 @@ header {
   top: 45%;
   left: 50%;
   transform: translate(-50%, 0);
+  width: 150px;
+  height: 150px;
 }
 
 .about__video-img {
   border-radius: 50%;
-}
-
-.about__video-img {
   width: 858px;
   height: 858px;
 }
