@@ -1162,3 +1162,7 @@ header {
   top: -24px;
   right: 0;
 }
+
+.reasons__plan-mobile {
+  display: none;
+}

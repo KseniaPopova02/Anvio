@@ -139,6 +139,109 @@
   }
 }
 
+@media (max-width: 1318px) {
+  .reasons__plan-img {
+    width: 700px;
+  }
+
+  .reasons__plan-text {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 19px;
+  }
+
+  .bottom__angle-left::after {
+    top: 25px;
+    left: 0px;
+    background-image: url("/images/mobile_bottom_angle_left.png");
+    background-repeat: no-repeat;
+  }
+
+  .bottom__angle-right::after {
+    top: 25px;
+    right: -54px;
+    background-image: url("/images/mobile_botom_angle_right.png");
+    background-repeat: no-repeat;
+  }
+
+  .soft__zone::after {
+    background-image: url("/images/mobile_top_angle_right.png");
+    top: -9px;
+    right: -53px;
+    background-repeat: no-repeat;
+  }
+
+  .tables__zone1::after {
+    top: -9px;
+    left: 0px;
+    background-image: url("/images/mobile_top_angle_left.png");
+    background-repeat: no-repeat;
+  }
+
+  .reasons__plan-wrapper {
+    width: 700px;
+  }
+
+  .tables__zone1 {
+    bottom: 7px;
+    left: 271px;
+  }
+
+  .cube1 {
+    bottom: 169px;
+    left: 349px;
+  }
+
+  .arena1 {
+    top: 206px;
+    right: 141px;
+  }
+  .arena2 {
+    top: 127px;
+    right: 5px;
+  }
+
+  .cube2 {
+    top: 47px;
+    right: 115px;
+  }
+
+  .moto {
+    top: -14px;
+    right: 200px;
+  }
+
+  .auto1 {
+    top: 122px;
+    right: 264px;
+  }
+
+  .auto2 {
+    top: 201px;
+    left: 211px;
+  }
+
+  .wending {
+    top: 216px;
+    left: -73px;
+  }
+
+  .tables__zone2 {
+    bottom: 160px;
+    left: -33px;
+  }
+
+  .wardrobe {
+    bottom: 77px;
+    left: 14px;
+  }
+
+  .soft__zone {
+    bottom: 17px;
+    left: 80px;
+  }
+}
+
 @media (max-width: 663px) {
   .about__video-img {
     width: 320px;
