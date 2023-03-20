@@ -131,7 +131,7 @@
 @media (max-width: 570px) {
   .swiper__slide-content {
     text-align: center;
-    width: 300px;
+    width: auto;
     padding: 30px 0;
   }
 }
