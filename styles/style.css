@@ -993,14 +993,41 @@ header {
 }
 
 .reasons {
-  margin-top: 471px;
+  margin-bottom: 215px;
 }
 
 .reasons__info-img {
   line-height: 0;
   font-size: 80px;
+  margin-right: 30px;
 }
 
 .reasons__info-wrapper {
   display: flex;
+}
+
+.reasons__info-wrapper + .reasons__info-wrapper {
+  margin-top: 50px;
+}
+
+.reasons__title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 64px;
+  max-width: 1061px;
+  margin-bottom: 75px;
+}
+
+.reasons__info-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  max-width: 558px;
+}
+
+.reasons__info-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  width: 588px;
+  line-height: 24px;
 }
