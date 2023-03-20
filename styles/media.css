@@ -1,3 +1,25 @@
+@media (max-width: 1870px) {
+  .reasons__plan-wrapper {
+    width: 1115px;
+    height: 813px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .reasons__plan {
+    top: 50px;
+  }
+
+  .reasons__title {
+    text-align: center;
+    margin: 0 auto 75px auto;
+  }
+
+  .reasons__info-wrapper {
+    justify-content: center;
+  }
+}
+
 @media (max-width: 1800px) {
   .about__title {
     font-size: 60px;

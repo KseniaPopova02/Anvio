@@ -1008,7 +1008,7 @@ header {
 }
 
 .reasons {
-  padding-bottom: 215px;
+  margin-bottom: 215px;
   position: relative;
 }
 
@@ -1052,5 +1052,113 @@ header {
 .reasons__plan {
   position: absolute;
   top: -190px;
+  right: 0;
+}
+
+.reasons__plan-wrapper {
+  width: 0;
+  height: 0;
+}
+
+.reasons__plan-text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  position: absolute;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.reasons__plan-text::after {
+  content: "";
+  position: absolute;
+  width: 84px;
+  height: 64px;
+  z-index: -1;
+}
+
+.bottom__angle-left::after {
+  background-image: url("/images/bottom_left_angle.png");
+  top: 30px;
+  left: 0;
+}
+
+.bottom__angle-right::after {
+  background-image: url("/images/bottom_right_angle.png");
+  top: 29px;
+  right: 0;
+}
+
+.tables__zone1 {
+  bottom: 65px;
+  left: 430px;
+}
+
+.tables__zone1::after {
+  top: -20px;
+  left: 0px;
+  background-image: url("/images/top_angle.png");
+}
+
+.cube1 {
+  bottom: 289px;
+  left: 573px;
+}
+
+.arena1 {
+  top: 320px;
+  right: 270px;
+}
+
+.arena2 {
+  top: 196px;
+  right: 46px;
+}
+
+.cube2 {
+  top: 64px;
+  right: 215px;
+}
+
+.moto {
+  top: -40px;
+  right: 330px;
+}
+
+.auto1 {
+  top: 190px;
+  right: 460px;
+}
+
+.auto2 {
+  top: 313px;
+  left: 342px;
+}
+
+.wending {
+  top: 344px;
+  left: -50px;
+}
+
+.tables__zone2 {
+  bottom: 270px;
+  left: -3px;
+}
+
+.wardrobe {
+  bottom: 136px;
+  left: 42px;
+}
+
+.soft__zone {
+  bottom: 17px;
+  left: 150px;
+}
+
+.soft__zone::after {
+  background-image: url("/images/top_angle_left.png");
+  top: -24px;
   right: 0;
 }
