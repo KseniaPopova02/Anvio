@@ -151,30 +151,30 @@
   }
 
   .bottom__angle-left::after {
-    top: 25px;
+    bottom: -49px;
     left: 0px;
     background-image: url("/images/mobile_bottom_angle_left.png");
     background-repeat: no-repeat;
   }
 
   .bottom__angle-right::after {
-    top: 25px;
+    bottom: -50px;
     right: -54px;
     background-image: url("/images/mobile_botom_angle_right.png");
     background-repeat: no-repeat;
   }
 
-  .soft__zone::after {
-    background-image: url("/images/mobile_top_angle_right.png");
-    top: -9px;
-    right: -53px;
-    background-repeat: no-repeat;
-  }
-
-  .tables__zone1::after {
+  .top__angle-left::after {
     top: -9px;
     left: 0px;
     background-image: url("/images/mobile_top_angle_left.png");
+    background-repeat: no-repeat;
+  }
+
+  .top__angle-right::after {
+    background-image: url("/images/mobile_top_angle_right.png");
+    top: -9px;
+    right: -53px;
     background-repeat: no-repeat;
   }
 
@@ -183,7 +183,7 @@
   }
 
   .tables__zone1 {
-    bottom: 7px;
+    bottom: 37px;
     left: 271px;
   }
 
@@ -239,6 +239,100 @@
   .soft__zone {
     bottom: 17px;
     left: 80px;
+  }
+}
+
+@media (max-width: 861px) {
+  .reasons__info-wrapper {
+    margin-bottom: 40px;
+  }
+
+  .bottom__angle-right::after {
+    right: -53px;
+  }
+
+  .reasons__plan-wrapper {
+    display: none;
+  }
+
+  .reasons__plan-mobile {
+    display: block;
+  }
+
+  .reasons__info {
+    margin-bottom: 16px;
+  }
+
+  .reasons__plan-text {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    line-height: 12px;
+  }
+
+  .tables__zone1 {
+    bottom: 14px;
+    left: 139px;
+  }
+
+  .cube1 {
+    bottom: 46px;
+    left: 182px;
+  }
+
+  .arena1 {
+    top: 125px;
+    right: 38px;
+  }
+
+  .arena2 {
+    top: 42px;
+    right: 11px;
+    max-width: 59px;
+  }
+
+  .cube2 {
+    top: 15px;
+    right: 31px;
+  }
+
+  .moto {
+    top: -13px;
+    right: 68px;
+  }
+
+  .auto1 {
+    top: 47px;
+    right: 102px;
+  }
+
+  .auto2 {
+    top: 85px;
+    left: 115px;
+  }
+
+  .tables__zone2 {
+    bottom: 77px;
+    left: 0px;
+    max-width: 86px;
+    text-align: end;
+  }
+
+  .wending {
+    top: 83px;
+    left: 2px;
+    max-width: 100px;
+    text-align: end;
+  }
+
+  .wardrobe {
+    bottom: 47px;
+    left: 14px;
+  }
+
+  .soft__zone {
+    bottom: 4px;
+    left: 22px;
   }
 }
 

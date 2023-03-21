@@ -1045,7 +1045,7 @@ header {
 .reasons__info-subtitle {
   font-weight: 400;
   font-size: 16px;
-  width: 588px;
+  max-width: 588px;
   line-height: 24px;
 }
 
@@ -1081,25 +1081,31 @@ header {
 
 .bottom__angle-left::after {
   background-image: url("/images/bottom_left_angle.png");
-  top: 30px;
+  bottom: -26px;
   left: 0;
 }
 
 .bottom__angle-right::after {
   background-image: url("/images/bottom_right_angle.png");
-  top: 29px;
+  bottom: -26px;
+  right: 0;
+}
+
+.top__angle-left::after {
+  top: -20px;
+  left: 0px;
+  background-image: url("/images/top_angle.png");
+}
+
+.top__angle-right::after {
+  background-image: url("/images/top_angle_left.png");
+  top: -24px;
   right: 0;
 }
 
 .tables__zone1 {
   bottom: 65px;
   left: 430px;
-}
-
-.tables__zone1::after {
-  top: -20px;
-  left: 0px;
-  background-image: url("/images/top_angle.png");
 }
 
 .cube1 {
@@ -1157,12 +1163,13 @@ header {
   left: 150px;
 }
 
-.soft__zone::after {
-  background-image: url("/images/top_angle_left.png");
-  top: -24px;
-  right: 0;
+.reasons__plan-mobile {
+  width: 348px;
+  height: 232px;
+  margin: 0 auto;
 }
 
 .reasons__plan-mobile {
+  position: relative;
   display: none;
 }
