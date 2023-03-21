@@ -1173,3 +1173,67 @@ header {
   position: relative;
   display: none;
 }
+
+.clubs {
+  margin-bottom: 157px;
+}
+
+.clubs__logo {
+  line-height: 0;
+  text-align: center;
+}
+
+.clubs__logo-img {
+  max-height: 386px;
+  max-width: 100%;
+}
+
+.clubs__info__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.numbers__wrapper {
+  display: flex;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numbers + .numbers {
+  margin-left: 52px;
+}
+
+.numbers__digit {
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 96px;
+}
+
+.numbers__text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.clubs__text-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  max-width: 1069px;
+}
+
+.clubs__text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  max-width: 1069px;
+}
+
+.clubs__text p + p {
+  margin-top: 20px;
+}
