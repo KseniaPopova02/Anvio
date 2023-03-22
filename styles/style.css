@@ -1237,3 +1237,40 @@ header {
 .clubs__text p + p {
   margin-top: 20px;
 }
+
+.activities__header {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 64px;
+  margin-bottom: 50px;
+}
+
+.activities__tabs {
+  display: flex;
+}
+
+.activities__tabs-btn {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ce2127;
+  width: 100%;
+  padding: 20px 30px;
+  background: transparent;
+  border-radius: 20px;
+  border: 2px solid #fff;
+}
+
+.active__tab {
+  color: #000;
+  background-color: #fff;
+}
+
+.active__tab::after {
+  border: 20px solid transparent;
+  border-top: 20px solid green;
+}
+
+.activities__tabs-btn + .activities__tabs-btn {
+  margin-left: 5px;
+}
