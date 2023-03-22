@@ -1522,6 +1522,24 @@ header {
   transform: translate(-50%, -50%);
 }
 
+.game4__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 530px 30px 30px 30px;
+}
+
+.game4__info-text {
+  display: flex;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.game4__info-text div + div {
+  margin-left: 40px;
+}
+
 .game__info-header {
   font-weight: 600;
   font-size: 32px;
