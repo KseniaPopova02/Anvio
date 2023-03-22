@@ -1247,6 +1247,7 @@ header {
 
 .activities__tabs {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .activities__tabs-btn {
@@ -1262,15 +1263,27 @@ header {
 }
 
 .active__tab {
+  position: relative;
   color: #000;
   background-color: #fff;
 }
 
 .active__tab::after {
-  border: 20px solid transparent;
-  border-top: 20px solid green;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  content: "";
+  background-image: url("/images/triangle.png");
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .activities__tabs-btn + .activities__tabs-btn {
   margin-left: 5px;
+}
+
+.activities__tabs-content {
+  background-color: #fff;
+  padding: 100px;
 }
