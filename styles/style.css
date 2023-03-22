@@ -1475,3 +1475,52 @@ header {
   width: 816px;
   height: 500px;
 }
+
+.info1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+  padding-bottom: 30px;
+}
+
+.game__info-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.game__info-btn button {
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.info2 {
+  position: relative;
+}
+
+.game__play {
+  position: absolute;
+  line-height: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.game__info-header {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
