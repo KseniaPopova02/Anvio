@@ -1506,6 +1506,10 @@ header {
   border: 2px solid #fff;
 }
 
+.game__info-btn button + button {
+  margin-left: 10px;
+}
+
 .info2 {
   position: relative;
 }
