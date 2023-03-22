@@ -246,6 +246,9 @@
 }
 
 @media (max-width: 861px) {
+  .reasons {
+    margin-bottom: 45px;
+  }
   .reasons__info-wrapper {
     margin-bottom: 40px;
   }
