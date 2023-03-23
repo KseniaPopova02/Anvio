@@ -360,6 +360,14 @@
   .activities__tabs-wrapper {
     display: none;
   }
+
+  .activities__mobile-wrapper {
+    display: block;
+  }
+
+  .activities__header {
+    text-align: center;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -513,6 +521,10 @@
     text-align: center;
     width: auto;
     padding: 30px 0;
+  }
+
+  .activities__header {
+    font-size: 40px;
   }
 }
 

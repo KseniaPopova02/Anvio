@@ -1089,13 +1089,44 @@
       <section class="activities">
         <div class="container">
           <h2 class="activities__header">Наши развлечения</h2>
+          <div class="activities__mobile-wrapper">
+            <ul class="activities__mobile-tabs">
+              <li class="tabs__mobile-btn">
+                <div>Атракционы</div>
+                <div class="activities__arrow-svg">
+                  <svg
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 22 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1.5L11 11.5L21 1.5"
+                      stroke="#CE2127"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </div>
+              </li>
+              <li class="tabs__mobile-btn">
+                <div>Арены</div>
+              </li>
+              <li class="tabs__mobile-btn">
+                <div>Стенды</div>
+              </li>
+              <li class="tabs__mobile-btn">
+                <div>Кубы</div>
+              </li>
+            </ul>
+          </div>
           <div class="activities__tabs-wrapper">
-            <div class="activities__tabs" id="tabs">
-              <button class="activities__tabs-btn active__tab">Арены</button>
-              <button class="activities__tabs-btn">Атракционы</button>
-              <button class="activities__tabs-btn">Стенды</button>
-              <button class="activities__tabs-btn">Кубы</button>
-            </div>
+            <ul class="activities__tabs" id="tabs">
+              <li class="activities__tabs-btn">Атракционы</li>
+              <li class="activities__tabs-btn active__tab">Арены</li>
+              <li class="activities__tabs-btn">Стенды</li>
+              <li class="activities__tabs-btn">Кубы</li>
+            </ul>
             <div class="activities__tabs-content show">
               <div class="activities__arena-content">
                 <div class="activities__tabs-arena">
