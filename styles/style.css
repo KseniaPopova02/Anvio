@@ -1486,6 +1486,10 @@ header {
   padding-bottom: 30px;
 }
 
+.activities__buble-span {
+  font-weight: 600;
+}
+
 .game__info-text {
   display: flex;
   justify-content: space-between;
@@ -1504,6 +1508,12 @@ header {
   line-height: 20px;
   color: #fff;
   border: 2px solid #fff;
+}
+
+.game__info-btn button:hover {
+  background-color: #ce2127;
+  transition: all 0.3s;
+  border-color: #ce2127;
 }
 
 .game__info-btn button + button {
