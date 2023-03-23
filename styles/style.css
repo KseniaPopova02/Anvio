@@ -1336,6 +1336,10 @@ header {
   margin-bottom: 30px;
 }
 
+.activities__icon-svg {
+  font-size: 60px;
+}
+
 .activities__arena-buttons button {
   font-weight: 600;
   font-size: 16px;
@@ -1483,10 +1487,10 @@ header {
   align-items: center;
   text-align: center;
   justify-content: end;
-  padding-bottom: 30px;
+  padding: 30px;
 }
 
-.activities__buble-span {
+.activities__bubble-span {
   font-weight: 600;
 }
 
@@ -1516,7 +1520,28 @@ header {
   border-color: #ce2127;
 }
 
+.game4__info-btn button {
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.game4__info-btn button:hover {
+  background-color: #ce2127;
+  transition: all 0.3s;
+  border-color: #ce2127;
+}
+
 .game__info-btn button + button {
+  margin-left: 10px;
+}
+
+.game4__info-btn button + button {
   margin-left: 10px;
 }
 
@@ -1555,4 +1580,12 @@ header {
   font-size: 32px;
   line-height: 32px;
   margin-bottom: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
