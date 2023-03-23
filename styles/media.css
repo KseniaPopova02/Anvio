@@ -353,6 +353,12 @@
   }
 }
 
+@media (max-width: 1100px) {
+  .activities__tabs-wrapper {
+    display: none;
+  }
+}
+
 @media (max-width: 1200px) {
   .activities__icon-content + .activities__icon-content {
     margin-left: 30px;

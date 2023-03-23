@@ -1288,6 +1288,7 @@ header {
   background-color: #fff;
   padding: 100px;
   position: relative;
+  border-radius: 50px;
 }
 
 .activities__arena-content {
