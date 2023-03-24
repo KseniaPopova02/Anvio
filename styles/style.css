@@ -1238,6 +1238,10 @@ header {
   margin-top: 20px;
 }
 
+.activities {
+  padding-bottom: 50px;
+}
+
 .activities__header {
   font-weight: 600;
   font-size: 64px;
