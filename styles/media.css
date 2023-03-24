@@ -373,12 +373,59 @@
     display: none;
   }
 
-  .activities__mobile-wrapper {
-    display: block;
+  .activities__mobile-tabs {
+    display: flex;
   }
 
   .activities__header {
     text-align: center;
+  }
+
+  .activities__bubbles {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .bubbles__angle-tl::after {
+    background-image: url("/images/mobile__buble__tl.png");
+    top: -13px;
+  }
+
+  .bubbles__angle-br::after {
+    background-image: url("/images/mobile__bubble__br.png");
+    bottom: -54px;
+    right: -53px;
+  }
+
+  .bubbles__angle-bl::after {
+    background-image: url("/images/mobile_bubble_bl.png");
+    bottom: -53px;
+    left: -1px;
+  }
+
+  .people {
+    max-width: 140px;
+    text-align: end;
+    top: -45px;
+    right: 161px;
+  }
+
+  .square {
+    top: 16px;
+    right: 31px;
+  }
+
+  .freedom {
+    bottom: 162px;
+    left: 70px;
+    max-width: 120px;
+  }
+
+  .games {
+    top: 140px;
+    right: 9px;
+    max-width: 70px;
   }
 }
 

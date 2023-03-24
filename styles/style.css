@@ -1595,12 +1595,8 @@ header {
   display: block;
 }
 
-.activities__mobile-wrapper {
-  display: none;
-}
-
 .activities__mobile-tabs {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   gap: 10px;
@@ -1621,9 +1617,109 @@ header {
 .tabs__mobile-btn {
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .activities__arrow-svg {
   line-height: 0;
   font-size: 30px;
+}
+
+.mobile__tabs-content {
+  background-color: #fff;
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+  font-size: 24px;
+  color: #ce2127;
+  text-transform: uppercase;
+  font-weight: 600;
+  height: 0;
+  overflow: hidden;
+}
+
+.mobile__tabs-content-show {
+  height: 100%;
+  overflow: visible;
+}
+
+.activities__mobile-tabs-active {
+  background-color: #fff;
+  fill: #000;
+}
+
+.mobile__tabs-content-wrapper {
+  color: #000;
+  padding: 30px;
+}
+
+.mobile__arena-wrapper {
+  width: 320px;
+  height: 220px;
+  margin: 30px auto 30px auto;
+}
+
+.mobile__arena {
+  position: relative;
+}
+
+.mobile__arena-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile__arena-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.mobile__arena-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile__arena-icon-text {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.mobile__arena-header {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+
+.mobile__arena-icon + .mobile__arena-icon {
+  margin-left: 60px;
+}
+
+.mobile__arena-text {
+  font-weight: 400;
+  font-size: 14px;
+  max-width: 280px;
+  margin-bottom: 20px;
+}
+
+.mobile__arena-btn button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: 2px solid #ce2127;
+  transition: all 0.3s;
+}
+
+.mobile__arena-btn button:hover {
+  background-color: #ce2127;
+  color: #fff;
+}
+
+.mobile__arena-btn button + button {
+  margin-left: 10px;
 }
