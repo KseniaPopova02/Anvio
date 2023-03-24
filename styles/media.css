@@ -260,6 +260,12 @@
   }
 }
 
+@media (max-width: 1100px) {
+  .clubs {
+    margin-bottom: 50px;
+  }
+}
+
 @media (max-width: 861px) {
   .reasons {
     margin-bottom: 45px;
