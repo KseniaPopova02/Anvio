@@ -368,6 +368,20 @@
   }
 }
 
+@media (max-width: 1100px) {
+  .activities__tabs-wrapper {
+    display: none;
+  }
+
+  .activities__mobile-wrapper {
+    display: block;
+  }
+
+  .activities__header {
+    text-align: center;
+  }
+}
+
 @media (max-width: 861px) {
   .reasons {
     margin-bottom: 45px;
