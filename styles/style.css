@@ -1264,6 +1264,7 @@ header {
   background: transparent;
   border-radius: 20px;
   border: 2px solid #fff;
+  cursor: pointer;
 }
 
 .active__tab {
