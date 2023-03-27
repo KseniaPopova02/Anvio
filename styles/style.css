@@ -771,6 +771,7 @@ header {
   margin-right: 0;
   width: 100%;
   max-width: 500px;
+  margin-top: 80px;
 }
 
 .swiper__slide-bg {
@@ -785,10 +786,6 @@ header {
   height: 140px;
   position: relative;
   z-index: 100;
-}
-
-.swiper {
-  margin-top: 80px;
 }
 
 .swiper__slider-wrapper {
