@@ -1724,3 +1724,21 @@ header {
 .swiper2__wrapper {
   position: relative;
 }
+
+.swiper2 {
+  width: 280px;
+  height: 500px;
+}
+
+.mobile__slide-bg1 {
+  background-color: #ce2127;
+  background-position: center;
+}
+.mobile__slide-bg2 {
+  background-color: #f4db4d;
+  background-position: center;
+}
+.mobile__slide-bg3 {
+  background-color: #82c9ea;
+  background-position: center;
+}
