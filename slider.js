@@ -27,7 +27,7 @@ const swiper2 = new Swiper(".swiper2", {
 
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper2__arrow-prev",
-    prevEl: ".swiper2__arrow-next",
+    nextEl: ".swiper2__arrow-next",
+    prevEl: ".swiper2__arrow-prev",
   },
 });
