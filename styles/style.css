@@ -816,7 +816,7 @@ header {
   right: -15px;
 }
 
-.swiper-pagination {
+.swiper__pagination {
   position: absolute;
   bottom: -20% !important;
 }
