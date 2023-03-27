@@ -35,9 +35,6 @@
 }
 
 @media (max-width: 1500px) {
-  .about__video-play {
-    top: 40%;
-  }
   .about__location {
     top: 450px;
   }
