@@ -152,6 +152,7 @@
     /* background-image: url("/images/circle__mobile-bg.png"); */
     background-image: none;
     background-color: #ce2127;
+    margin-bottom: 70px;
   }
 
   .about__title {
