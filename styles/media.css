@@ -1,4 +1,45 @@
-/* header */
+@media (max-width: 1800px) {
+  .about__title {
+    font-size: 60px;
+    margin-bottom: 30px;
+    line-height: 60px;
+  }
+  .about__subtitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+  .about__info {
+    flex-direction: column;
+  }
+  .about__info-content + .about__info-content {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .about__video {
+    right: 20px;
+    top: 10px;
+  }
+
+  .about__location {
+    top: 520px;
+    left: 60%;
+  }
+}
+
+@media (max-width: 1553px) {
+  .about__video-img {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .about__location {
+    top: 450px;
+  }
+}
+
 @media (max-width: 1350px) {
   .upper__li {
     margin-left: 15px;
@@ -17,6 +58,87 @@
   }
   .header__mobile-wrapper {
     display: flex;
+  }
+
+  .about {
+    /* background-image: url("/images/circle__mobile-bg.png"); */
+    background-image: none;
+    background-color: #ce2127;
+    margin-bottom: 70px;
+  }
+
+  .about__title {
+    margin-top: 0;
+  }
+
+  .about__wrapper {
+    margin-left: 0;
+    padding-bottom: 80px;
+  }
+  .about__title-wrapper {
+    text-align: center;
+  }
+
+  .swiper__slider-wrapper {
+    margin-bottom: 58px;
+  }
+
+  .about__video {
+    position: static;
+  }
+  .about__location {
+    display: none;
+  }
+  .about__background {
+    left: 50%;
+    max-width: 200vh;
+    max-height: 200vh;
+    transform: translate(-50%, 0);
+  }
+  .about__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .swiper1 {
+    margin-top: 0;
+  }
+
+  .about__mobile-adress {
+    display: flex;
+  }
+  .about__info-images {
+    display: block;
+  }
+  .about__mobile-btns {
+    display: flex;
+  }
+}
+
+@media (max-width: 663px) {
+  .about__video-img {
+    width: 320px;
+    height: 320px;
+  }
+  .about__video-play {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 570px) {
+  .swiper__slide-content {
+    text-align: center;
+    width: auto;
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .about__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -40,5 +162,9 @@
   .mobile__burger-wrapper {
     height: 550px;
     margin-left: 5px;
+  }
+  .about__video-img {
+    width: 300px;
+    height: 300px;
   }
 }
