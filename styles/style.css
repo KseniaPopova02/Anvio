@@ -1724,3 +1724,7 @@ header {
 .mobile__arena-btn button + button {
   margin-left: 10px;
 }
+
+.swiper2__wrapper {
+  position: relative;
+}
