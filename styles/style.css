@@ -1620,6 +1620,7 @@ header {
 .activities__arrow-svg {
   line-height: 0;
   font-size: 30px;
+  transition: all 0.3s;
 }
 
 .mobile__tabs-content {
@@ -1642,6 +1643,15 @@ header {
 .activities__mobile-tabs-active {
   background-color: #fff;
   fill: #000;
+  color: #000;
+}
+
+.active__svg {
+  stroke: #000 !important;
+}
+
+.active__div-svg {
+  transform: rotate(180deg);
 }
 
 .mobile__tabs-content-wrapper {
@@ -1682,6 +1692,7 @@ header {
 .mobile__arena-icon-text {
   font-weight: 600;
   font-size: 14px;
+  color: #000;
 }
 
 .mobile__arena-header {
@@ -1692,6 +1703,11 @@ header {
 
 .mobile__arena-icon + .mobile__arena-icon {
   margin-left: 60px;
+}
+
+.mobile__arena-icons {
+  color: #ce2127;
+  font-size: 40px;
 }
 
 .mobile__arena-text {
@@ -1723,6 +1739,7 @@ header {
 
 .swiper2__wrapper {
   position: relative;
+  margin-top: 40px;
 }
 
 .swiper2 {
@@ -1733,12 +1750,15 @@ header {
 .mobile__slide-bg1 {
   background-color: #ce2127;
   background-position: center;
+  border-radius: 20px;
 }
 .mobile__slide-bg2 {
   background-color: #f4db4d;
   background-position: center;
+  border-radius: 20px;
 }
 .mobile__slide-bg3 {
   background-color: #82c9ea;
   background-position: center;
+  border-radius: 20px;
 }

@@ -6,7 +6,8 @@ const tabsMobileWrapper = document.getElementById("tabsMobileWrapper");
 const tabsMobileContent = document.getElementsByClassName(
   "mobile__tabs-content"
 );
-
+const arrowDiv = document.getElementsByClassName("activities__arrow-svg");
+const arrowSvg = document.getElementsByClassName("arrow__svg");
 const hideTabsContent = (num) => {
   for (let i = num; i < tabContent.length; i++) {
     tabContent[i].classList.remove("show");
@@ -39,6 +40,8 @@ tabsWrapper.addEventListener("click", (event) => {
 const showMobileTabsContent = (num) => {
   tabsMobileContent[num].classList.toggle("mobile__tabs-content-show");
   tabsMobile[num].classList.toggle("activities__mobile-tabs-active");
+  arrowDiv[num].classList.toggle("active__div-svg");
+  arrowSvg[num].classList.toggle("active__svg");
 };
 
 tabsMobileWrapper.addEventListener("click", (event) => {
