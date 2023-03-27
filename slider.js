@@ -13,9 +13,21 @@ const swiper1 = new Swiper(".swiper1", {
     nextEl: ".swiper__arrow-next",
     prevEl: ".swiper__arrow-prev",
   },
+});
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
+const swiper2 = new Swiper(".swiper2", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: ".pag__2",
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper2__arrow-next",
+    prevEl: ".swiper2__arrow-prev",
   },
 });
